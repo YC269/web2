@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*全局样式*/
+body {background-color:#baf2fe;color:#999;background:url(../images/bj.jpg) repeat fixed!important;}
+p {font-size:12px; text-indent:24px;}
+.title {color:#ff9900;font-size:14px;text-shadow:#999 1px 1px 1px;}
+h2, hr {padding:0;margin:0px;}
+.container {background:#FFF;}
+.container {width:950px;margin:0 auto;}
+.pagination {text-align:center;}
+
+/*logo 导航栏*/
+.head {width:950px;margin:0 auto;background:#fff;padding-top:20px;}
+.nav1 {margin-top:20px;height:40px;width:910px;margin:0 auto;}
+.nav1 td {width:80px;text-align:center;background:#058246;}
+.nav1 td a {text-decoration:none;color:#fff;}
+.nav1 td a:hover {color:#ff0;}
+
+/*时间 logo边距*/
+#logo {margin-left:360px;}
+.bianju{ padding:0px 20px 0px 10px;}
+
+/*banner 动作*/
+.gundong{width:910px; margin:0 auto;}
+
+.light img {margin:0 auto;}
+.light {background:#FFF repeat-x;padding-top:20px;}
+.light {background-image:url("../images/light_bg.jpg")}
+.light p {ext-align:center;color:#999;}
+
+/*主体*/
+.main {padding-bottom:50px;}
+.main .span4 {width:290px;}
+.main h1 {font-size:24px;text-align:center;color:#f00;}
+.main h2 {font-size:16px;}
+.main p {font-size:14px;line-height:30px;padding:40px;}
+.pic-index {float: left;margin-left: 6px;margin-right: 10px;margin-top: 12px;width: 450px;}
+.pic-index .span4 {background:#FFF url("../images/index_pic.jpg") no-repeat left top;margin-top:-30px;padding:20px 12px 0 12px;font-size:12px;color:#FFF;margin-left:0px;float:left;margin-bottom:-30px;}
+.pic-index ul li img {height:230px;}
+.pic-index .span4, .pic-index .span2 {font-size:12px;}
+.pic-index .span2 {height:45px;line-height:45px;width:110px;margin-left:0;}
+.pic-index .span4 {height:120px;}
+
+/*页脚*/
+.footer {width:950px;height:100px;margin:auto;border-top:3px solid #8f1706;background:#000;color:#fff;}
+.footer {font-size:14px;text-align:center;line-height:30px;}
